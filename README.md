@@ -5,7 +5,7 @@ A clean, minimalistic, ready to print resume website, where I show my profession
 
 ## 🥃 Preview
 
-![Minismalist Resume Preview](https://github.com/)
+![Minismalist Resume Preview](https://github.com/Rocio-Medran/minimalist-cv/blob/main/portada.png)
 
 
 ## 🔥 Features

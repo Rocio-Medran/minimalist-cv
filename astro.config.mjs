@@ -5,10 +5,10 @@ import robotsTxt from 'astro-robots-txt';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://example.com',
+  site: 'https://medran-rocio-cv.netlify.app/es/',
   i18n: {
     defaultLocale: 'es',
-    locales: ['en', 'es'],
+    locales: ['es', 'en'],
   },
   integrations: [
     sitemap({
