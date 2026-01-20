@@ -5,7 +5,7 @@ import robotsTxt from 'astro-robots-txt';
 
 // https://astro.build/config
 export default defineConfig({
-  site: '',
+  site: 'https://example.com',
   i18n: {
     defaultLocale: 'es',
     locales: ['en', 'es'],
