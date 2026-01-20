@@ -1,0 +1,173 @@
+{
+  "basics": {
+    "name": "Rocio Abigail Medran",
+    "label": "Técnica en Desarrollo de Software",
+    "image": "/me.webp",
+    "email": "rociomedran9@gmail.com",
+    "phone": "https://wa.me/5493513206822",
+    "url": "#",
+    "summary": [{
+        "paragraph": "Desarrolladora de software junior con interés en el desarrollo backend y las nuevas tecnologías. Tengo experiencia trabajando con Node.js y .NET, utilizando C#, TypeScript y Docker, así como con bases de datos como PostgreSQL, SQL Server, MySQL y MongoDB. Me caracterizo por mis ganas de aprender, mejorar continuamente y aportar valor al equipo mientras sigo fortaleciendo mis habilidades técnicas."
+      }],
+    "location": {
+      "address": "",
+      "postalCode": "5016",
+      "city": "Córdoba",
+      "countryCode": "AR",
+      "region": "Argentina"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "Rocio Medran",
+        "url": "https://www.linkedin.com/in/rocio-medran/"
+      },
+      {
+        "network": "GitHub",
+        "username": "Rocio-Medran",
+        "url": "https://github.com/Rocio-Medran"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "DESARROLLADORA BACKEND NODE.JS - EXPRESS",
+      "position": "SISTEMA WEB – VIVERO PRODUCTIVO QUILINO",
+      "url": "https://vivero-quilino.vercel.app/",
+      "startDate": "2025-07-25",
+      "endDate": null,
+      "summary": "Participé en el desarrollo y mantenimiento del backend utilizando Node.js y TypeScript, junto con PostgreSQL y TypeORM. Colaboré en la implementación de buenas prácticas y principios de arquitectura de software para mejorar la calidad y escalabilidad del sistema. Trabajé junto a un equipo multidisciplinario en el diseño y desarrollo de soluciones tecnológicas orientadas a las necesidades del negocio.",
+      "highlights": [
+        "Started the company"
+      ]
+    },
+    {
+      "name": "PRÁCTICAS PROFESIONALIZANTES",
+      "position": "ENCODELABS S.A.",
+      "url": "#",
+      "startDate": "2023-04-10",
+      "endDate": "2025-12-19",
+      "summary": "Participé en proyectos de simulación profesional dentro de una software factory, colaborando en backend, frontend, documentación y organización del proyecto. Utilicé tecnologías como .NET y Angular y apliqué buenas prácticas, patrones de diseño y conceptos de testing y gestión de proyectos durante los tres años de la tecnicatura.",
+      "highlights": [
+        "Started the company"
+      ]
+    }
+  ],
+  "education": [{
+    "institution": "Quality ISAD",
+    "url": "https://www.qualityisad.com.ar/",
+    "area": "Tecnicatura Superior en Desarrollo de Software",
+    "startDate": "2023-03-27",
+    "endDate": "2025-12-19"
+  }],
+  "certificates": [],
+  "skills": [
+    {
+      "name": "HTML",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web", "Frontend"
+      ]
+    },
+    {
+      "name": "CSS",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Backend", "Fullstack"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
+      ]
+    },
+    {
+      "name": "Node",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Backend", "JavaScript", "Servidor"
+      ]
+    },
+    {
+      "name": "MySQL",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Avanzado",
+      "keywords": [
+        "Control de Versiones", "Colaboración", "Código Fuente"
+      ]
+    },
+    {
+      "name": "GitHub",
+      "level": "Avanzado",
+      "keywords": [
+        "Control de Versiones", "Colaboración", "Código Fuente", "Git"
+      ]
+    },
+    {
+      "name": "Docker",
+      "level": "Avanzado",
+      "keywords": [
+        "Contenedores", "Despliegue", "DevOps"
+      ]
+    },
+    {
+      "name": "Angular",
+      "level": "Intermedio",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "JavaScript Framework"
+      ]
+    },
+    {
+      "name": ".NET",
+      "level": "Intermedio",
+      "keywords": [
+        "Desarrollo de Software", "Backend", "C#"
+      ]
+    },
+    {
+      "name": "SQL Server",
+      "level": "Intermedio",
+      "keywords": [
+        "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
+      ]
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "Intermedio",
+      "keywords": [
+        "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
+      ]
+    },
+    {
+      "name": "MongoDB",
+      "level": "Intermedio",
+      "keywords": [
+        "Bases de Datos NoSQL", "Almacenamiento de Datos", "Backend"
+      ]
+    },
+    {
+      "name": "Csharp",
+      "level": "Intermedio",
+      "keywords": [
+        "Metodología Ágil", "Gestión de Proyectos", "Colaboración"
+      ]
+    }
+  ],
+  "softskills": [],
+  "projects": []
+}
