@@ -8,7 +8,7 @@
     "url": "#",
     "summary": [
       {
-        "paragraph": "Junior Software Developer with an interest in backend development and new technologies. I have experience working with Node.js and .NET, using C#, TypeScript, and Docker, as well as databases such as PostgreSQL, SQL Server, MySQL, and MongoDB. I’m characterized by my eagerness to learn, continuously improve, and add value to the team while further strengthening my technical skills."
+        "paragraph": "Software Developer with an interest in backend development and new technologies. I have experience working with Node.js and .NET, using C#, TypeScript, and Docker, as well as databases such as PostgreSQL, SQL Server, MySQL, and MongoDB. I’m characterized by my eagerness to learn, continuously improve, and add value to the team while further strengthening my technical skills."
       }
     ],
     "location": {
@@ -38,7 +38,7 @@
       "url": "https://vivero-quilino.vercel.app/",
       "startDate": "2025-07-25",
       "endDate": null,
-      "summary": "I participated in the development and maintenance of the backend using Node.js and TypeScript, along with PostgreSQL and TypeORM. I collaborated in the implementation of best practices and software architecture principles to improve the quality and scalability of the system. I worked alongside a multidisciplinary team on the design and development of technological solutions aligned with business needs.",
+      "summary": "I was responsible for the development and evolution of the backend, working with Node.js, TypeScript, PostgreSQL, and TypeORM. I defined and implemented software architecture best practices, contributing to a more scalable and robust system. I worked closely with multidisciplinary teams to design technical solutions aligned with business goals.",
       "highlights": [
         "Started the company"
       ]
@@ -49,7 +49,7 @@
       "url": "#",
       "startDate": "2023-04-10",
       "endDate": "2025-12-19",
-      "summary": "I participated in professional simulation projects within a software factory, collaborating on backend, frontend, documentation and project organization. I used technologies such as .NET and Angular and applied best practices, design patterns and concepts of testing and project management during the three years of the technical degree.",
+      "summary": "I participated in professional simulation projects within a software factory, collaborating on backend and frontend development, documentation, and project organization. I used technologies such as .NET and Angular, applying best practices, design patterns, clean architecture principles, testing concepts, and project management throughout the three years of the technical degree.",
       "highlights": [
         "Started the company"
       ]
