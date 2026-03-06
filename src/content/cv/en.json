@@ -1,14 +1,14 @@
 {
   "basics": {
     "name": "Rocio Abigail Medran",
-    "label": "Software Development Technician (Associate Degree)",
+    "label": "Backend Developer",
     "image": "/me.webp",
     "email": "rociomedran9@gmail.com",
-    "phone": "https://wa.me/5493513206822",
+    "phone": "54 351 320-6822",
     "url": "#",
     "summary": [
       {
-        "paragraph": "Software Developer with an interest in backend development and new technologies. I have experience working with Node.js and .NET, using C#, TypeScript, and Docker, as well as databases such as PostgreSQL, SQL Server, MySQL, and MongoDB. I’m characterized by my eagerness to learn, continuously improve, and add value to the team while further strengthening my technical skills."
+        "paragraph": "Software developer focused on backend with experience working with Node.js and .NET. I have built APIs and systems using C#, TypeScript, and Docker, along with databases such as PostgreSQL, SQL Server, MySQL and MongoDB. I am interested in creating scalable and maintainable solutions, applying good development practices and actively collaborating within a team."
       }
     ],
     "location": {
@@ -22,7 +22,7 @@
       {
         "network": "LinkedIn",
         "username": "Rocio Medran",
-        "url": "https://www.linkedin.com/in/rocio-medran/"
+        "url": "https://linkedin.com/in/rocio-medran/"
       },
       {
         "network": "GitHub",
@@ -34,14 +34,12 @@
   "work": [
     {
       "name": "BACKEND DEVELOPER NODE.JS - EXPRESS",
-      "position": "SISTEMA WEB – VIVERO PRODUCTIVO QUILINO",
+      "position": "WEB SYSTEM – VIVERO PRODUCTIVO QUILINO",
       "url": "https://vivero-quilino.vercel.app/",
       "startDate": "2025-07-25",
-      "endDate": null,
-      "summary": "I was responsible for the development and evolution of the backend, working with Node.js, TypeScript, PostgreSQL, and TypeORM. I defined and implemented software architecture best practices, contributing to a more scalable and robust system. I worked closely with multidisciplinary teams to design technical solutions aligned with business goals.",
-      "highlights": [
-        "Started the company"
-      ]
+      "endDate": "2026-02-28",
+      "summary": "Responsible for the development and evolution of the backend using Node.js, TypeScript, PostgreSQL and TypeORM. Designed and implemented REST APIs and database modeling applying architectural best practices to improve the system's scalability and maintainability, collaborating with multidisciplinary teams to deliver solutions aligned with business objectives.",
+      "highlights": []
     },
     {
       "name": "PROFESSIONAL INTERNSHIPS",
@@ -49,18 +47,17 @@
       "url": "#",
       "startDate": "2023-04-10",
       "endDate": "2025-12-19",
-      "summary": "I participated in professional simulation projects within a software factory, collaborating on backend and frontend development, documentation, and project organization. I used technologies such as .NET and Angular, applying best practices, design patterns, clean architecture principles, testing concepts, and project management throughout the three years of the technical degree.",
-      "highlights": [
-        "Started the company"
-      ]
+      "summary": "Participated in projects with a software factory dynamic, collaborating on backend, frontend, documentation and project organization. Worked with .NET and Angular applying design patterns, Clean Architecture principles, testing and agile methodologies across multiple projects.",
+      "highlights": []
     }
   ],
-  "education": [{
-    "institution": "Quality ISAD",
-    "url": "https://www.qualityisad.com.ar/",
-    "area": "Advanced Technical Degree in Software Development",
-    "startDate": "2023-03-27",
-    "endDate": "2025-12-19"
+  "education": [
+    {
+      "institution": "Quality ISAD",
+      "url": "https://www.qualityisad.com.ar/",
+      "area": "Advanced Technical Degree in Software Development",
+      "startDate": "2023-03-27",
+      "endDate": "2025-12-19"
     }
   ],
   "certificates": [],
@@ -68,107 +65,87 @@
     {
       "name": "HTML",
       "level": "Master",
-      "keywords": [
-        "Desarrollo Web", "Frontend"
-      ]
+      "keywords": ["Web Development", "Frontend"]
     },
     {
       "name": "CSS",
       "level": "Master",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "Diseño Responsive"
-      ]
+      "keywords": ["Web Development", "Frontend", "Responsive Design"]
     },
     {
       "name": "JavaScript",
       "level": "Master",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "Backend", "Fullstack"
-      ]
+      "keywords": ["Web Development", "Frontend", "Backend", "Fullstack"]
     },
     {
       "name": "TypeScript",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
-      ]
+      "level": "Advanced",
+      "keywords": ["Web Development", "Frontend", "Backend", "JavaScript Superset"]
     },
     {
       "name": "Node",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Backend", "JavaScript", "Servidor"
-      ]
+      "level": "Advanced",
+      "keywords": ["Web Development", "Backend", "JavaScript", "Server"]
     },
     {
       "name": "MySQL",
-      "level": "Avanzado",
-      "keywords": [
-        "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
-      ]
+      "level": "Advanced",
+      "keywords": ["Databases", "SQL", "Data Storage", "Backend"]
     },
     {
       "name": "Git",
-      "level": "Avanzado",
-      "keywords": [
-        "Control de Versiones", "Colaboración", "Código Fuente"
-      ]
+      "level": "Advanced",
+      "keywords": ["Version Control", "Collaboration", "Source Code"]
     },
     {
       "name": "GitHub",
-      "level": "Avanzado",
-      "keywords": [
-        "Control de Versiones", "Colaboración", "Código Fuente", "Git"
-      ]
+      "level": "Advanced",
+      "keywords": ["Version Control", "Collaboration", "Source Code", "Git"]
     },
     {
       "name": "Docker",
-      "level": "Avanzado",
-      "keywords": [
-        "Contenedores", "Despliegue", "DevOps"
-      ]
+      "level": "Advanced",
+      "keywords": ["Containers", "Deployment", "DevOps"]
     },
     {
       "name": "Angular",
-      "level": "Intermedio",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "JavaScript Framework"
-      ]
+      "level": "Intermediate",
+      "keywords": ["Web Development", "Frontend", "JavaScript Framework"]
     },
     {
       "name": ".NET",
-      "level": "Intermedio",
-      "keywords": [
-        "Desarrollo de Software", "Backend", "C#"
-      ]
+      "level": "Intermediate",
+      "keywords": ["Software Development", "Backend", "C#"]
     },
     {
       "name": "SQL Server",
-      "level": "Intermedio",
-      "keywords": [
-        "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
-      ]
+      "level": "Intermediate",
+      "keywords": ["Databases", "SQL", "Data Storage", "Backend"]
     },
     {
       "name": "PostgreSQL",
-      "level": "Intermedio",
-      "keywords": [
-        "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
-      ]
+      "level": "Intermediate",
+      "keywords": ["Databases", "SQL", "Data Storage", "Backend"]
     },
     {
       "name": "MongoDB",
-      "level": "Intermedio",
-      "keywords": [
-        "Bases de Datos NoSQL", "Almacenamiento de Datos", "Backend"
-      ]
+      "level": "Intermediate",
+      "keywords": ["NoSQL Databases", "Data Storage", "Backend"]
     },
     {
-      "name": "Csharp",
-      "level": "Intermedio",
-      "keywords": [
-        "Metodología Ágil", "Gestión de Proyectos", "Colaboración"
-      ]
+      "name": "C#",
+      "level": "Intermediate",
+      "keywords": ["Agile Methodologies", "Project Management", "Collaboration"]
+    },
+    {
+      "name": "Scrum",
+      "level": "Intermediate",
+      "keywords": ["Agile Methodologies", "Project Management", "Collaboration"]
+    },
+    {
+      "name": "Kanban",
+      "level": "Intermediate",
+      "keywords": ["Agile Methodologies", "Project Management", "Collaboration"]
     }
   ],
   "softskills": [],
