@@ -12,7 +12,7 @@ import { ICONS } from '@/icons/KeyboardIcons';
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
-const redirectURL = lang === 'en' ? '/es' : '/';
+const redirectURL = lang === 'en' ? '/es' : '/en';
 
 const printInfo = {
   id: 'print',

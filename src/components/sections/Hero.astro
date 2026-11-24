@@ -30,7 +30,7 @@ const printInfo = [email, phone, linkedInfo?.url, githubInfo?.url]
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
-const redirectURL = lang === 'en' ? '/es' : '/';
+const redirectURL = lang === 'en' ? '/es' : '/en';
 ---
 
 <div class='container'>

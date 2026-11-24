@@ -55,3 +55,19 @@
   --hotkeypad-border-container-hover: #3a3a3a;
   --hotkeypad-fg-muted: #eee;
 }
+
+/* Al imprimir o exportar a PDF siempre se usa el tema claro */
+@media print {
+  .dark {
+    --background: #fff;
+    --hover-background: #eee;
+    --darker-hover-background: #ddd;
+    --soft-primary-text: #777;
+    --primary-text: #444;
+    --darker-primary-text: #555;
+    --secondary-text: #444;
+    --darker-secondary-text: #333;
+    --black-text: #111;
+    --projects-background: #e5e5e5;
+  }
+}

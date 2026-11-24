@@ -21,6 +21,18 @@ const { title } = Astro.props;
     font-size: 1.3rem;
   }
 
+  @media print {
+    section {
+      max-width: none;
+      margin-bottom: 18px;
+    }
+
+    h2 {
+      font-size: 1.15rem;
+      margin-bottom: 6px;
+    }
+  }
+
   @media (width <= 700px) {
     section {
       margin-bottom: 32px;

@@ -132,4 +132,16 @@ const t = useTranslations(lang);
     font-weight: 500;
     padding: 0.2rem 0.6rem;
   }
+
+  @media print {
+    ul {
+      grid-template-columns: 1fr;
+      margin-inline: 0;
+    }
+
+    article {
+      padding: 10px 12px;
+      gap: 6px;
+    }
+  }
 </style>

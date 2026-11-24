@@ -10,6 +10,7 @@ import Education from '@/components/sections/Education.astro';
 import Experience from '@/components/sections/Experience.astro';
 import Projects from '@/components/sections/Projects.astro';
 import Skills from '@/components/sections/Skills.astro';
+import Languages from '@/components/sections/Languages.astro';
 // import SoftSkills from '@/components/sections/SoftSkills.astro';
 
 import { getLangFromUrl, useTranslations } from '@/i18n/utils';
@@ -26,19 +27,22 @@ const { name, label } = basics;
   <main class='container'>
     <Section><Hero data={entry.data} /></Section>
     <Section title={t('section.about')}><About data={entry.data} /></Section>
+    <Section title={t('section.skills')}><Skills data={entry.data} /></Section>
     <Section title={t('section.experience')}
       ><Experience data={entry.data} /></Section
     >
     <Section title={t('section.education')}
       ><Education data={entry.data} /></Section
     >
-    <!-- <Section title={t('section.projects')}
+    <Section title={t('section.projects')}
       ><Projects data={entry.data} />
-    </Section> -->
+    </Section>
     <!-- <Section title={t('section.certifications')}
       ><Certificates data={entry.data} /></Section
     > -->
-    <Section title={t('section.skills')}><Skills data={entry.data} /></Section>
+    <Section title={t('section.languages')}
+      ><Languages data={entry.data} /></Section
+    >
     <!-- <Section title={t('section.softSkills')}
       ><SoftSkills data={entry.data} /></Section
     > -->
@@ -55,6 +59,12 @@ const { name, label } = basics;
   @media (min-width: 768px) {
     .container {
       padding: 3rem;
+    }
+  }
+
+  @media print {
+    .container {
+      padding: 0;
     }
   }
 </style>

@@ -135,6 +135,16 @@ const t = useTranslations(lang);
       }
 
       @media print {
+        @page {
+          margin: 12mm 14mm;
+        }
+
+        html {
+          font-size: 13px;
+          -webkit-print-color-adjust: exact;
+          print-color-adjust: exact;
+        }
+
         .print {
           display: block !important;
         }

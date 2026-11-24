@@ -1,14 +1,17 @@
 {
   "basics": {
     "name": "Rocio Abigail Medran",
-    "label": "Backend Developer",
+    "label": "Full Stack Developer (Backend-focused)",
     "image": "/me.webp",
     "email": "rociomedran9@gmail.com",
-    "phone": "54 351 320-6822",
+    "phone": "+54 9 351 320-6822",
     "url": "#",
     "summary": [
       {
-        "paragraph": "Software developer focused on backend with experience working with Node.js and .NET. I have built APIs and systems using C#, TypeScript, and Docker, along with databases such as PostgreSQL, SQL Server, MySQL and MongoDB. I am interested in creating scalable and maintainable solutions, applying good development practices and actively collaborating within a team."
+        "paragraph": "Backend-focused Full Stack Developer with 3+ years of experience building APIs, web systems and mobile apps with Node.js, NestJS, TypeScript and .NET. I own each project from requirements gathering with the client to production deployment."
+      },
+      {
+        "paragraph": "I am currently the sole developer of the logistics ERP for Ambiental Cord S.R.L. at LogixARG: I make the technical decisions, refine requirements with the client alongside the Product Owner and ship working features to production every sprint. I work with PostgreSQL, SQL Server, Docker and CI/CD, applying Clean Architecture, TDD and agile practices, and I use AI agents (Claude Code, Codex) to speed up development without compromising quality."
       }
     ],
     "location": {
@@ -33,29 +36,78 @@
   },
   "work": [
     {
-      "name": "BACKEND DEVELOPER NODE.JS - EXPRESS",
-      "position": "WEB SYSTEM – VIVERO PRODUCTIVO QUILINO",
-      "url": "https://vivero-quilino.vercel.app/",
-      "startDate": "2025-07-25",
-      "endDate": "2026-02-28",
-      "summary": "Responsible for the development and evolution of the backend using Node.js, TypeScript, PostgreSQL and TypeORM. Designed and implemented REST APIs and database modeling applying architectural best practices to improve the system's scalability and maintainability, collaborating with multidisciplinary teams to deliver solutions aligned with business objectives.",
-      "highlights": []
+      "name": "Full Stack Developer",
+      "position": "LogixARG · Freelance",
+      "startDate": "2026-05-01",
+      "endDate": null,
+      "summary": "Custom software development for businesses, from requirements gathering to production deployment.",
+      "achievements": [
+        "Sole developer of the logistics ERP for Ambiental Cord S.R.L. (used cooking oil collection), now in production. It replaced Excel spreadsheets and most manual work, significantly reduced administrative time and improved control over every collection.",
+        "Defined the architecture and technical decisions: a NestJS and TypeScript API on PostgreSQL (Supabase), a React admin panel and a React Native (Expo) mobile app for drivers with offline mode.",
+        "Built the route sheet, fleet, preventive maintenance, manifest, PDF/Excel reporting and WhatsApp notification modules, with role-based JWT authentication and ControlSat GPS integration.",
+        "Refine requirements directly with the client alongside the Product Owner, ship working features to production every sprint, and review and merge UI changes from another developer into the main branch.",
+        "Ensure quality through TDD (Jest, unit and integration tests), CI/CD with GitHub Actions and Vercel, and deployment with Docker Compose and Nginx.",
+        "Brought AI agents (Claude Code and Codex) into the development workflow to generate code, tests and documentation, always validated through code review and CI. This lets me single-handedly maintain a system of this size with higher test coverage.",
+        "Built a WhatsApp chatbot with the Anthropic API (Claude Haiku) that answers inquiries, qualifies leads and books meetings, integrated with LogixARG's sales back office (lead and pipeline CRM). Also built the corporate landing page."
+      ],
+      "highlights": [
+        "NestJS",
+        "TypeScript",
+        "PostgreSQL",
+        "Supabase",
+        "React",
+        "React Native",
+        "Docker",
+        "Jest",
+        "CI/CD"
+      ]
     },
     {
-      "name": "PROFESSIONAL INTERNSHIPS",
-      "position": "ENCODELABS S.A.",
-      "url": "#",
-      "startDate": "2023-04-10",
+      "name": "Full Stack Developer",
+      "position": "Ultrix Labs · Freelance",
+      "startDate": "2025-12-01",
+      "endDate": "2026-04-30",
+      "summary": "Internal KPI measurement and goal and milestone tracking system.",
+      "achievements": [
+        "Built an internal system to measure KPIs and plan company goals and milestones, tracking their progress.",
+        "Backend in .NET with C# and Entity Framework, and frontend in Angular.",
+        "Containerized development and production environments with Docker."
+      ],
+      "highlights": [
+        ".NET",
+        "C#",
+        "Entity Framework",
+        "Angular",
+        "Docker"
+      ]
+    },
+    {
+      "name": "Software Developer",
+      "position": "Encodelabs S.A. · Professional internship",
+      "startDate": "2023-04-01",
       "endDate": "2025-12-19",
-      "summary": "Participated in projects with a software factory dynamic, collaborating on backend, frontend, documentation and project organization. Worked with .NET and Angular applying design patterns, Clean Architecture principles, testing and agile methodologies across multiple projects.",
-      "highlights": []
+      "summary": "Software factory. Started with code reviews, then took on development tasks and was finally assigned to a project, contributing to backend, frontend and documentation.",
+      "achievements": [
+        "Developed and maintained REST APIs with .NET and C#, applying Clean Architecture, design patterns and testing.",
+        "Built Angular interfaces, designed databases and wrote SQL queries, working with Scrum.",
+        "Final degree project for a real client: backend for the Quilino Municipal Plant Nursery web system with Node.js, Express, TypeScript and PostgreSQL (TypeORM), JWT authentication, Cloudinary image storage and Docker deployment on Railway."
+      ],
+      "highlights": [
+        ".NET",
+        "C#",
+        "Angular",
+        "SQL",
+        "Node.js",
+        "Express",
+        "PostgreSQL"
+      ]
     }
   ],
   "education": [
     {
       "institution": "Quality ISAD",
       "url": "https://www.qualityisad.com.ar/",
-      "area": "Advanced Technical Degree in Software Development",
+      "area": "Higher Technical Degree in Software Development",
       "startDate": "2023-03-27",
       "endDate": "2025-12-19"
     }
@@ -63,91 +115,95 @@
   "certificates": [],
   "skills": [
     {
-      "name": "HTML",
-      "level": "Master",
-      "keywords": ["Web Development", "Frontend"]
+      "name": "Node.js"
     },
     {
-      "name": "CSS",
-      "level": "Master",
-      "keywords": ["Web Development", "Frontend", "Responsive Design"]
+      "name": "NestJS"
     },
     {
-      "name": "JavaScript",
-      "level": "Master",
-      "keywords": ["Web Development", "Frontend", "Backend", "Fullstack"]
+      "name": "TypeScript"
     },
     {
-      "name": "TypeScript",
-      "level": "Advanced",
-      "keywords": ["Web Development", "Frontend", "Backend", "JavaScript Superset"]
+      "name": "PostgreSQL"
     },
     {
-      "name": "Node",
-      "level": "Advanced",
-      "keywords": ["Web Development", "Backend", "JavaScript", "Server"]
+      "name": "Docker"
     },
     {
-      "name": "MySQL",
-      "level": "Advanced",
-      "keywords": ["Databases", "SQL", "Data Storage", "Backend"]
+      "name": "Jest"
     },
     {
-      "name": "Git",
-      "level": "Advanced",
-      "keywords": ["Version Control", "Collaboration", "Source Code"]
+      "name": "CI/CD"
     },
     {
-      "name": "GitHub",
-      "level": "Advanced",
-      "keywords": ["Version Control", "Collaboration", "Source Code", "Git"]
+      "name": "GitHub Actions"
     },
     {
-      "name": "Docker",
-      "level": "Advanced",
-      "keywords": ["Containers", "Deployment", "DevOps"]
+      "name": "C#"
     },
     {
-      "name": "Angular",
-      "level": "Intermediate",
-      "keywords": ["Web Development", "Frontend", "JavaScript Framework"]
+      "name": ".NET"
     },
     {
-      "name": ".NET",
-      "level": "Intermediate",
-      "keywords": ["Software Development", "Backend", "C#"]
+      "name": "Entity Framework"
     },
     {
-      "name": "SQL Server",
-      "level": "Intermediate",
-      "keywords": ["Databases", "SQL", "Data Storage", "Backend"]
+      "name": "SQL Server"
     },
     {
-      "name": "PostgreSQL",
-      "level": "Intermediate",
-      "keywords": ["Databases", "SQL", "Data Storage", "Backend"]
+      "name": "Supabase"
     },
     {
-      "name": "MongoDB",
-      "level": "Intermediate",
-      "keywords": ["NoSQL Databases", "Data Storage", "Backend"]
+      "name": "TypeORM"
     },
     {
-      "name": "C#",
-      "level": "Intermediate",
-      "keywords": ["Agile Methodologies", "Project Management", "Collaboration"]
+      "name": "Express"
     },
     {
-      "name": "Scrum",
-      "level": "Intermediate",
-      "keywords": ["Agile Methodologies", "Project Management", "Collaboration"]
+      "name": "React"
     },
     {
-      "name": "Kanban",
-      "level": "Intermediate",
-      "keywords": ["Agile Methodologies", "Project Management", "Collaboration"]
+      "name": "React Native"
+    },
+    {
+      "name": "Angular"
+    },
+    {
+      "name": "Git"
+    },
+    {
+      "name": "Anthropic API"
+    },
+    {
+      "name": "Claude Code"
+    },
+    {
+      "name": "Codex"
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "Basic"
     }
   ],
   "softskills": [],
-  "projects": []
+  "projects": [
+    {
+      "name": "LogixARG · Landing",
+      "description": "Corporate website for LogixARG, a software factory based in Córdoba. Showcases its custom development and automation services, with responsive design and SEO and Open Graph metadata.",
+      "url": "https://www.logixarg.com/",
+      "highlights": [
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "Vite"
+      ],
+      "isActive": true
+    }
+  ]
 }

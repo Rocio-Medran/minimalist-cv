@@ -6,19 +6,22 @@ const { data } = Astro.props;
 const { education } = data as Resume;
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
+const dateLocale = lang === 'es' ? 'es-AR' : 'en-US';
 ---
 
 <ul>
   {
     education.map(({ startDate, endDate, institution, area }) => {
-      const startDateString = new Date(startDate).toLocaleDateString('en-US', {
+      const startDateString = new Date(startDate).toLocaleDateString(dateLocale, {
         month: 'short',
         year: 'numeric',
+        timeZone: 'UTC',
       });
       const endDateString = endDate
-        ? new Date(endDate).toLocaleDateString('en-US', {
+        ? new Date(endDate).toLocaleDateString(dateLocale, {
             month: 'short',
             year: 'numeric',
+            timeZone: 'UTC',
           })
         : t('currentDateString');
       return (

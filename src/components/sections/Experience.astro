@@ -6,19 +6,22 @@ const { data } = Astro.props;
 const { work } = data as Resume;
 const lang = getLangFromUrl(Astro.url)
 const t = useTranslations(lang)
+const dateLocale = lang === 'es' ? 'es-AR' : 'en-US';
 ---
 
 <ul>
   {
-    work.map(({ name, startDate, endDate, position, summary, isRemote, highlights }) => {
-      const startDateString = new Date(startDate).toLocaleDateString('en-US', {
+    work.map(({ name, startDate, endDate, position, summary, isRemote, highlights, achievements }) => {
+      const startDateString = new Date(startDate).toLocaleDateString(dateLocale, {
         month: 'short',
         year: 'numeric',
+        timeZone: 'UTC',
       });
       const endDateString = endDate
-        ? new Date(endDate).toLocaleDateString('en-US', {
+        ? new Date(endDate).toLocaleDateString(dateLocale, {
             month: 'short',
             year: 'numeric',
+            timeZone: 'UTC',
           })
         : t('currentDateString');
       return (
@@ -38,6 +41,13 @@ const t = useTranslations(lang)
             </header>
             <footer>
               <p>{summary}</p>
+              {achievements && achievements.length > 0 && (
+                <ul class="achievements">
+                  {achievements.map((a) => (
+                    <li>{a}</li>
+                  ))}
+                </ul>
+              )}
               {highlights && highlights.length > 0 && (
                 <div class="highlights">
                   {highlights.map((h) => (
@@ -110,6 +120,20 @@ const t = useTranslations(lang)
     gap: 8px;
   }
 
+  .achievements {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding-left: 1.1rem;
+    list-style: disc;
+    font-size: 0.9rem;
+    color: var(--primary-text);
+  }
+
+  .achievements li::marker {
+    color: var(--darker-primary-text);
+  }
+
   .highlights {
     display: flex;
     flex-wrap: wrap;
@@ -124,6 +148,22 @@ const t = useTranslations(lang)
     font-weight: 500;
     padding: 0.2rem 0.6rem;
   }
+
+@media print {
+  ul {
+    gap: 14px;
+  }
+
+  header {
+    break-inside: avoid;
+    break-after: avoid;
+  }
+
+  .achievements li,
+  .highlights {
+    break-inside: avoid;
+  }
+}
 
 @media (max-width: 500px) {
   

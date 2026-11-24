@@ -33,6 +33,7 @@ const resumeSchema = z.object({
       endDate: z.string().date().nullable(),
       summary: z.string(),
       highlights: z.array(z.string()),
+      achievements: z.array(z.string()).optional().default([]),
       isRemote: z.boolean().optional().default(false),
     })
   ),
@@ -57,6 +58,15 @@ const resumeSchema = z.object({
       name: z.string(),
     })
   ),
+  languages: z
+    .array(
+      z.object({
+        language: z.string(),
+        fluency: z.string(),
+      })
+    )
+    .optional()
+    .default([]),
   softskills: z.array(
     z.object({
       name: z.string(),

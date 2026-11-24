@@ -1,14 +1,17 @@
 {
   "basics": {
     "name": "Rocio Abigail Medran",
-    "label": "Backend Developer",
+    "label": "Full Stack Developer (foco Backend)",
     "image": "/me.webp",
     "email": "rociomedran9@gmail.com",
-    "phone": "54 351 320-6822",
+    "phone": "+54 9 351 320-6822",
     "url": "#",
     "summary": [
       {
-        "paragraph": "Desarrolladora de software con enfoque en backend y experiencia trabajando con Node.js y .NET. He desarrollado APIs y sistemas utilizando C#, TypeScript y Docker, junto con bases de datos como PostgreSQL, SQL Server, MySQL y MongoDB. Me interesa construir soluciones escalables y mantenibles, aplicando buenas prácticas de desarrollo y colaborando activamente en equipo."
+        "paragraph": "Desarrolladora Full Stack con foco en backend y más de 3 años de experiencia construyendo APIs, sistemas web y apps móviles con Node.js, NestJS, TypeScript y .NET. Acompaño cada proyecto desde el relevamiento con el cliente hasta el deploy en producción."
+      },
+      {
+        "paragraph": "Hoy soy la única desarrolladora del ERP logístico de Ambiental Cord S.R.L. en LogixARG: tomo las decisiones técnicas, refino los requerimientos con el cliente junto al Product Owner y entrego funcionalidades en producción en cada sprint. Trabajo con PostgreSQL, SQL Server, Docker y CI/CD, aplicando Clean Architecture, TDD y metodologías ágiles, y uso agentes de IA (Claude Code, Codex) para acelerar el desarrollo sin resignar calidad."
       }
     ],
     "location": {
@@ -33,25 +36,70 @@
   },
   "work": [
     {
-      "name": "DESARROLLADORA BACKEND NODE.JS - EXPRESS",
-      "position": "SISTEMA WEB – VIVERO PRODUCTIVO QUILINO",
-      "url": "https://vivero-quilino.vercel.app/",
-      "startDate": "2025-07-25",
-      "endDate": "2026-02-28",
-      "summary": "Responsable del desarrollo y evolución del backend utilizando Node.js, TypeScript, PostgreSQL y TypeORM. Diseñé e implementé APIs REST y modelado de base de datos aplicando buenas prácticas de arquitectura para mejorar la escalabilidad y mantenibilidad del sistema, colaborando con equipos multidisciplinarios para desarrollar soluciones alineadas a objetivos de negocio.",
+      "name": "Full Stack Developer",
+      "position": "LogixARG · Freelance",
+      "startDate": "2026-05-01",
+      "endDate": null,
+      "summary": "Desarrollo de software a medida para empresas, desde el relevamiento hasta el deploy en producción.",
+      "achievements": [
+        "Única desarrolladora del ERP logístico de Ambiental Cord S.R.L. (recolección de aceite vegetal usado), hoy en producción. Reemplazó planillas Excel y gran parte del trabajo manual, redujo considerablemente el tiempo administrativo y mejoró el control de cada recolección.",
+        "Definí la arquitectura y las decisiones técnicas: API en NestJS y TypeScript sobre PostgreSQL (Supabase), panel web en React y app móvil para conductores en React Native (Expo) con modo offline.",
+        "Desarrollé los módulos de hojas de ruta, flota, mantenimiento preventivo, manifiestos, reportes PDF/Excel y notificaciones por WhatsApp, con autenticación JWT por roles e integración con el GPS de ControlSat.",
+        "Refino los requerimientos directamente con el cliente junto al Product Owner, entrego funcionalidades en producción en cada sprint y reviso e integro al flujo principal los cambios de interfaz de otro desarrollador.",
+        "Sostengo la calidad con TDD (Jest, tests unitarios y de integración), CI/CD con GitHub Actions y Vercel, y deploy con Docker Compose y Nginx.",
+        "Incorporé agentes de IA (Claude Code y Codex) al flujo de desarrollo para generar código, tests y documentación, siempre validados con revisión de código y CI. Esto me permite sostener sola un sistema de este tamaño con mayor cobertura de tests.",
+        "Desarrollé un chatbot de WhatsApp con la API de Anthropic (Claude Haiku) que responde consultas, califica leads y agenda reuniones, integrado al backoffice comercial (CRM de leads y pipeline) de LogixARG. También desarrollé la landing institucional."
+      ],
       "highlights": [
-        
+        "NestJS",
+        "TypeScript",
+        "PostgreSQL",
+        "Supabase",
+        "React",
+        "React Native",
+        "Docker",
+        "Jest",
+        "CI/CD"
       ]
     },
     {
-      "name": "PRÁCTICAS PROFESIONALIZANTES",
-      "position": "ENCODELABS S.A.",
-      "url": "#",
-      "startDate": "2023-04-10",
-      "endDate": "2025-12-19",
-      "summary": "Participé en proyectos con dinámica de software factory, colaborando en backend, frontend, documentación y organización del proyecto. Trabajé con .NET y Angular aplicando patrones de diseño, principios de Clean Architecture, testing y metodologías ágiles durante el desarrollo de múltiples proyectos.",
+      "name": "Full Stack Developer",
+      "position": "Ultrix Labs · Freelance",
+      "startDate": "2025-12-01",
+      "endDate": "2026-04-30",
+      "summary": "Sistema interno de medición de KPIs y seguimiento de objetivos e hitos.",
+      "achievements": [
+        "Desarrollé un sistema interno para medir KPIs y planificar los objetivos e hitos de la empresa, con seguimiento de su cumplimiento.",
+        "Backend en .NET con C# y Entity Framework, y frontend en Angular.",
+        "Contenerización con Docker para los entornos de desarrollo y producción."
+      ],
       "highlights": [
-        
+        ".NET",
+        "C#",
+        "Entity Framework",
+        "Angular",
+        "Docker"
+      ]
+    },
+    {
+      "name": "Software Developer",
+      "position": "Encodelabs S.A. · Prácticas profesionalizantes",
+      "startDate": "2023-04-01",
+      "endDate": "2025-12-19",
+      "summary": "Software factory. Empecé revisando código, luego me asignaron tareas de desarrollo y finalmente un proyecto, colaborando en backend, frontend y documentación.",
+      "achievements": [
+        "Desarrollo y mantenimiento de APIs REST con .NET y C#, aplicando Clean Architecture, patrones de diseño y testing.",
+        "Interfaces en Angular, diseño de bases de datos y consultas SQL, trabajando con Scrum.",
+        "Proyecto final de la tecnicatura para un cliente real: backend del sistema web del Vivero Productivo Municipal de Quilino con Node.js, Express, TypeScript y PostgreSQL (TypeORM), autenticación JWT, imágenes en Cloudinary y deploy con Docker en Railway."
+      ],
+      "highlights": [
+        ".NET",
+        "C#",
+        "Angular",
+        "SQL",
+        "Node.js",
+        "Express",
+        "PostgreSQL"
       ]
     }
   ],
@@ -67,116 +115,95 @@
   "certificates": [],
   "skills": [
     {
-      "name": "HTML",
-      "level": "Master",
-      "keywords": ["Desarrollo Web", "Frontend"]
+      "name": "Node.js"
     },
     {
-      "name": "CSS",
-      "level": "Master",
-      "keywords": ["Desarrollo Web", "Frontend", "Diseño Responsive"]
+      "name": "NestJS"
     },
     {
-      "name": "JavaScript",
-      "level": "Master",
-      "keywords": ["Desarrollo Web", "Frontend", "Backend", "Fullstack"]
+      "name": "TypeScript"
     },
     {
-      "name": "TypeScript",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web",
-        "Frontend",
-        "Backend",
-        "JavaScript Superset"
-      ]
+      "name": "PostgreSQL"
     },
     {
-      "name": "Node",
-      "level": "Avanzado",
-      "keywords": ["Desarrollo Web", "Backend", "JavaScript", "Servidor"]
+      "name": "Docker"
     },
     {
-      "name": "MySQL",
-      "level": "Avanzado",
-      "keywords": [
-        "Bases de Datos",
-        "SQL",
-        "Almacenamiento de Datos",
-        "Backend"
-      ]
+      "name": "Jest"
     },
     {
-      "name": "Git",
-      "level": "Avanzado",
-      "keywords": ["Control de Versiones", "Colaboración", "Código Fuente"]
+      "name": "CI/CD"
     },
     {
-      "name": "GitHub",
-      "level": "Avanzado",
-      "keywords": [
-        "Control de Versiones",
-        "Colaboración",
-        "Código Fuente",
-        "Git"
-      ]
+      "name": "GitHub Actions"
     },
     {
-      "name": "Docker",
-      "level": "Avanzado",
-      "keywords": ["Contenedores", "Despliegue", "DevOps"]
+      "name": "C#"
     },
     {
-      "name": "Angular",
-      "level": "Intermedio",
-      "keywords": ["Desarrollo Web", "Frontend", "JavaScript Framework"]
+      "name": ".NET"
     },
     {
-      "name": ".NET",
-      "level": "Intermedio",
-      "keywords": ["Desarrollo de Software", "Backend", "C#"]
+      "name": "Entity Framework"
     },
     {
-      "name": "SQL Server",
-      "level": "Intermedio",
-      "keywords": [
-        "Bases de Datos",
-        "SQL",
-        "Almacenamiento de Datos",
-        "Backend"
-      ]
+      "name": "SQL Server"
     },
     {
-      "name": "PostgreSQL",
-      "level": "Intermedio",
-      "keywords": [
-        "Bases de Datos",
-        "SQL",
-        "Almacenamiento de Datos",
-        "Backend"
-      ]
+      "name": "Supabase"
     },
     {
-      "name": "MongoDB",
-      "level": "Intermedio",
-      "keywords": ["Bases de Datos NoSQL", "Almacenamiento de Datos", "Backend"]
+      "name": "TypeORM"
     },
     {
-      "name": "Csharp",
-      "level": "Intermedio",
-      "keywords": ["Metodología Ágil", "Gestión de Proyectos", "Colaboración"]
+      "name": "Express"
     },
     {
-      "name": "Scrum",
-      "level": "Intermedio",
-      "keywords": ["Metodología Ágil", "Gestión de Proyectos", "Colaboración"]
+      "name": "React"
     },
     {
-      "name": "Kanban",
-      "level": "Intermedio",
-      "keywords": ["Metodología Ágil", "Gestión de Proyectos", "Colaboración"]
+      "name": "React Native"
+    },
+    {
+      "name": "Angular"
+    },
+    {
+      "name": "Git"
+    },
+    {
+      "name": "Anthropic API"
+    },
+    {
+      "name": "Claude Code"
+    },
+    {
+      "name": "Codex"
+    }
+  ],
+  "languages": [
+    {
+      "language": "Español",
+      "fluency": "Nativo"
+    },
+    {
+      "language": "Inglés",
+      "fluency": "Básico"
     }
   ],
   "softskills": [],
-  "projects": []
+  "projects": [
+    {
+      "name": "LogixARG · Landing",
+      "description": "Sitio institucional de LogixARG, software factory de Córdoba. Presenta los servicios de desarrollo a medida y automatización, con diseño responsive y metadatos SEO y Open Graph.",
+      "url": "https://www.logixarg.com/",
+      "highlights": [
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "Vite"
+      ],
+      "isActive": true
+    }
+  ]
 }
